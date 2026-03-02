@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts & Boxicons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Shovon Debnath</title>
+    <link rel="shortcut icon" href="assets/img/shilling.png" type="image/x-icon">
+</head>
+<body>
+    <!-- HEADER (glassmorphism, sticky) -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo">
+                    <span class="typewriter" id="typewriter"></span><span class="nav__cursor">|</span>
+                </a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME with colorful blob / illustration -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data_social">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, <br> I'm <span class="home__title-color">Shovon Debnath</span><br> Web Designer</h1>
+                    <p class="home__contact"><i class='bx bx-phone'></i> 01301783043</p>
+                    <p class="home__contact"><i class='bx bx-envelope'></i> shovondebnath111@gmail.com</p>
+                    <a href="#contact" class="button button--gradient">Let's talk</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/shovon-debnath-2928bb3a0" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://x.com/ShovonDebn82965" class="home__social-icon" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://github.com/shovonbebnath" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="resume-link-wrap">
+                    <a class="resume-link" href="assets/Shovon_Debnath_Resume.pdf" target="_blank">Download Resume <i class='bx bx-download'></i></a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <div class="home__blob">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Shovon working" class="home__blob-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT (with skill chips) -->
+        <section class="section" id="about">
+            <h2 class="section-title">About <span>me</span></h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/image-1.jpg" alt="Shovon at desk">
+                </div>
+                <div class="about__content">
+                    <h3 class="about__subtitle">Professional Summary</h3>
+                    <p class="about__text">Computer Science student specialised in web dev. I build user‑centric, beautiful interfaces and I’m on track to become a full‑stack creatorI’m Shovon Debnath, a motivated and growth-oriented student based in Dhaka, Bangladesh, blending creative sensibilities with a passion for technology. With a strong foundation in both coding and visual design, I explore projects that bridge logical problem-solving and aesthetic expression. My work reflects a continuous drive to learn, adapt, and contribute meaningfully — whether that’s building interactive digital experiences, developing personal coding projects, or producing creative artwork that resonates.
+
+Driven by curiosity and committed to professional growth, I’m actively expanding my technical skills while seeking opportunities to collaborate, innovate, and make a lasting impact in the digital sphere..</p>
+                    
+                    <div class="about__education">
+                        <h3 class="about__subsubtitle"><i class='bx bxs-graduation'></i> Education</h3>
+                        <p><strong>B.Sc. Computer Science</strong> — University of Asia Pacific</p>
+                        <p>Expected Graduation: 2027</p>
+                        <p>CGPA 3.8/4.0 · Dean’s list</p>
+                    </div>
+
+                    <h3 class="about__subsubtitle"><i class='bx bxs-wrench'></i> Technical Skills</h3>
+                    <div class="skills__container">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">DBMS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS (cards with rich hover) -->
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                <!-- project 1 -->
+                <div class="project__card">
+                    <div class="project__img">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Portfolio project">
+                    </div>
+                    <div class="project__info">
+                        <h3 class="project__title">Portfolio Website</h3>
+                        <p class="project__tech">HTML · CSS · JS</p>
+                        <p class="project__desc">Personal site to showcase skills. Fully responsive, with smooth scroll and glass effect.</p>
+                        <div class="project__details">
+                            <span class="dome">⭐ improved branding</span>
+                            <a href="#" class="project__link">Live <i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- project 2 -->
+                <div class="project__card">
+                    <div class="project__img">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Task manager">
+                    </div>
+                    <div class="project__info">
+                        <h3 class="project__title">Task Management App</h3>
+                        <p class="project__tech">JavaScript · HTML · CSS</p>
+                        <p class="project__desc">Add, edit, delete tasks with local storage. Clean UI and smooth interactions.</p>
+                        <div class="project__details">
+                            <span class="dome">⭐ 500+ users</span>
+                            <a href="#" class="project__link">Demo <i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- project 3 -->
+                <div class="project__card">
+                    <div class="project__img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="E-commerce page">
+                    </div>
+                    <div class="project__info">
+                        <h3 class="project__title">E‑commerce Landing</h3>
+                        <p class="project__tech">Bootstrap · CSS</p>
+                        <p class="project__desc">Responsive product showcase with modern cards and micro‑interactions.</p>
+                        <div class="project__details">
+                            <span class="dome">⭐ 20% more engagement</span>
+                            <a href="#" class="project__link">Preview <i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--project 4-->
+                <div class="project__card">
+                    <div class="project__img">
+                        <img src="assets/img/project Schema diagram (Dark Theme).png" alt="E-commerce page">
+                    </div>
+                    <div class="project__info">
+                        <h3 class="project__title">Online Shopping Management System</h3>
+                        <p class="project__tech">PostgreSQL , SQL</p>
+                        <p class="project__desc">Designed and implemented a comprehensive online shopping management system using PostgreSQL and SQL for efficient data handling and retrieval.</p>
+                        <div class="project__details">
+                            <span class="dome">⭐ 20% more engagement</span>
+                            <a href="https://github.com/shovonbebnath/Online-Shopping-Management-System" target="_blank" class="project__link">Preview <i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--project 5-->
+                <div class="project__card">
+                    <div class="project__img">
+                        <img src="assets/img/Student-Management-System-Project-in-Java.jpg" alt="E-commerce page">
+                    </div>
+                    <div class="project__info">
+                        <h3 class="project__title">Student Management System</h3>
+                        <p class="project__tech">Java</p>
+                        <p class="project__desc">Developed a student management system using Java for efficient data handling and retrieval.</p>
+                        <div class="project__details">
+                            <span class="dome">⭐ Java Programming</span>
+                            <a href="https://github.com/shovonbebnath/Student-Management-System" target="_blank" class="project__link">Preview <i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS (stylish cards) -->
+        <section class="section" id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert__container bd-grid">
+                <a class="cert__card" href="assets/certificates/3311839-Photoroom.png" target="_blank">
+                    <img src="assets/certificates/3311839-Photoroom.png" alt="certificate" class="cert__img">
+                    <p>Google IT Support Professional · Coursera</p>
+                </a>
+                <a class="cert__card" href="assets/certificates/3317210-Photoroom.png" target="_blank">
+                    <img src="assets/certificates/3317210-Photoroom.png" alt="certificate" class="cert__img">
+                    <p>Web Development Bootcamp · Udemy</p>
+                </a>
+                <a class="cert__card" href="assets/certificates/7155551-Photoroom.png" target="_blank">
+                    <img src="assets/certificates/7155551-Photoroom.png" alt="certificate" class="cert__img">
+                    <p>JavaScript Fundamentals · freeCodeCamp</p>
+                </a>
+                <a class="cert__card" href="assets/certificates/7157008-Photoroom.png" target="_blank">
+                    <img src="assets/certificates/7157008-Photoroom.png" alt="certificate" class="cert__img">
+                    <p>Python Fundamentals · freeCodeCamp</p>
+                </a>
+                <a class="cert__card" href="assets/certificates/9086934-Photoroom.png" target="_blank">
+                    <img src="assets/certificates/9086934-Photoroom.png" alt="certificate" class="cert__img">
+                    <p>PostgreSQL Database · geeksforgeeks</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS (compact cards) -->
+        <section class="section" id="achievements">
+            <h2 class="section-title">Achievements</h2>
+            <div class="ach__container bd-grid">
+                <a class="ach__card" href="#">
+                    <i class='bx bxs-trophy ach__icon'></i>
+                    <p>1st Place · University Hackathon 2024</p>
+                </a>
+                <a class="ach__card" href="#">
+                    <i class='bx bxs-medal ach__icon'></i>
+                    <p>Top 10 · National Coding Competition</p>
+                </a>
+                <a class="ach__card" href="#">
+                    <i class='bx bxs-award ach__icon'></i>
+                    <p>Dean's List Award · Academic Excellence</p>
+                </a>
+                <a class="ach__card" href="#">
+                    <i class='bx bxs-award ach__icon'></i>
+                    <p>Dean's List Award · Academic Excellence</p>
+                </a>
+                <a class="ach__card" href="#">
+                    <i class='bx bxs-award ach__icon'></i>
+                    <p>Dean's List Award · Academic Excellence</p>
+                </a>
+                
+            </div>
+        </section>
+
+        <!-- CONTACT (modern form) -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Get in touch</h2>
+            <div class="contact__container bd-grid">
+                <form class="contact__form">
+                    <input type="email" placeholder="Email address" class="contact__input" id="email" required>
+                    <input type="text" placeholder="Subject" class="contact__input" id="subject" required>
+                    <textarea placeholder="Message" cols="30" rows="5" class="contact__input" id="message" required></textarea> <!-- Removed invalid 'type="textarea"' -->
+                </form>
+                <button class="button button--gradient contact__button" onclick="sendEmail()">
+                    Send Message <i class='bx bx-send'></i>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__title">Shovon Debnath</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/ShovonDebn82965" target="_blank" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2026 — built with 💜 & code</p>
+    </footer>
+
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class='bx bx-check-circle toast__icon toast__icon--success'></i>
+        <i class='bx bx-error-circle toast__icon toast__icon--error'></i>
+        <span class="toast__msg" id="toast-msg"></span>
+    </div>
+
+    <!-- EmailJS -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+            publicKey: "cff_WfIfUAYI59s1f",
+            });
+        })();
+    </script>
+    
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
